@@ -60,7 +60,7 @@ Just put the `feeds.conf.default` file into the root directory of the warehouse,
 
 | Name | Value |
 | ---- | ---- |
-| Default IP | 192.168.1.1 |
+| Default IP | 192.168.1.201 |
 | Default username | root |
 | Default password | password |
 | Default WIFI name | OpenWrt |
