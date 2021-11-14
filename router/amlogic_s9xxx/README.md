@@ -81,7 +81,7 @@ Tip: Functions such as install/update are provided by [luci-app-amlogic](https:/
 
 | Name | Value |
 | ---- | ---- |
-| Default IP | 192.168.1.1 |
+| Default IP | 192.168.1.201 |
 | Default username | root |
 | Default password | password |
 | Default WIFI name | OpenWrt |
