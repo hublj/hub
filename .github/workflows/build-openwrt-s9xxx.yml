@@ -169,7 +169,9 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
           This is OpenWrt firmware for Amlogic S9xxx STB
-          Lite version for personal use
+          
+          “Lite version for personal use”
+          
           * Firmware information
           Default IP: 192.168.1.201
           Default username: root
