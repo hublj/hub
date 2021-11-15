@@ -137,7 +137,7 @@ jobs:
       with:
         armvirt64_path: openwrt/bin/targets/*/*/*.tar.gz
         amlogic_openwrt: s905d
-        amlogic_kernel: 5.10.79_5.4.159_5.14.18
+        amlogic_kernel: 5.10.79_5.4.159_5.14.18_5.15.2
 
     - name: Upload artifact to Actions
       uses: kittaakos/upload-artifact-as-is@master
