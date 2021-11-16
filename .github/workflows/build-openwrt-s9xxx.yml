@@ -133,7 +133,7 @@ jobs:
 
     - name: Package Armvirt as OpenWrt
       if: steps.compile.outputs.status == 'success' && !cancelled()
-      uses: ophub/amlogic-s9xxx-openwrt@main
+      uses: hublj/amlogic-s9xxx-openwrt@main
       with:
         armvirt64_path: openwrt/bin/targets/*/*/*.tar.gz
         amlogic_openwrt: s905d
