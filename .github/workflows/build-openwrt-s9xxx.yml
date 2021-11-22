@@ -5,7 +5,7 @@
 # Source code repository: https://github.com/coolsnowwolf/lede / Branch: master
 #========================================================================================================================
 
-name: Build OpenWrt for S9xxx
+name: 21.11.22 lite
 
 on:
   repository_dispatch:
