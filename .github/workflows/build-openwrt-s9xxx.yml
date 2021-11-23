@@ -169,7 +169,7 @@ jobs:
         allowUpdates: true
         token: ${{ secrets.GITHUB_TOKEN }}
         body: |
-          This is OpenWrt firmware for Amlogic S9xxx STB
+          "编译打包一体"
           
           “高大全版”
           
@@ -179,6 +179,6 @@ jobs:
           Default username: root
           Default password: password
           Default WIFI name: OpenWrt
-          Default WIFI password: none
-          Install to EMMC: Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+          Default WIFI password: password
+          
 
