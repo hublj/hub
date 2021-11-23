@@ -131,13 +131,14 @@ jobs:
         retention-days: ${{ env.RECENT_LASTEST }}
         if-no-files-found: ignore
 
+    
     - name: Package Armvirt as OpenWrt
-      if: steps.compile.outputs.status == 'success' && !cancelled()
-      uses: ophub/amlogic-s9xxx-openwrt@main
-      with:
-        armvirt64_path: openwrt/bin/targets/*/*/*.tar.gz
-        amlogic_openwrt: s905d
-        amlogic_kernel: 5.10.79_5.4.159_5.14.18_5.15.2
+      uses: unifreq/openwrt_packit@master
+      env:
+        OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
+        PACKAGE_SOC: s905d_s905x3_beikeyun
+        KERNEL_VERSION_NAME: 5.13.2_5.4.132
+
 
     - name: Upload artifact to Actions
       uses: kittaakos/upload-artifact-as-is@master
